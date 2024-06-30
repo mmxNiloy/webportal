@@ -34,69 +34,65 @@ Paragrap        : 18px/1.6 '', Arial, sans-serif;
 Input, textarea : 14px/1.6 '', Arial, sans-serif;
 -------------------------------------------------------------------*/
 
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf');
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: Poppins-Light;
-  src: url('../fonts/Poppins/Poppins-Light.ttf');
+  src: url("../fonts/Poppins/Poppins-Light.ttf");
 }
 
 @font-face {
   font-family: Poppins-ExtraLight;
-  src: url('../fonts/Poppins/Poppins-ExtraLight.ttf');
+  src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('../fonts/Poppins/Poppins-Medium.ttf');
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: Poppins-Italic;
-  src: url('../fonts/Poppins/Poppins-Italic.ttf');
+  src: url("../fonts/Poppins/Poppins-Italic.ttf");
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf');
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
 }
-
 
 /*---------------------------------------------*/
 @font-face {
   font-family: PlayfairDisplay-Regular;
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf');
+  src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf");
 }
 
 @font-face {
   font-family: PlayfairDisplay-Bold;
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf');
+  src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf");
 }
 
 /*---------------------------------------------*/
 @font-face {
   font-family: Montserrat-Regular;
-  src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
@@ -120,40 +116,36 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 /*Nazzzim*/
-.CustomContainer{
-  background-color: #0C4A6E;
+.CustomContainer {
+  background-color: #0c4a6e;
   text-align: center;
   color: white;
   padding: 15px;
-  
 }
-.counterBg{
+.counterBg {
+  /* background-image: url("../images//counterbg.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 
-  background-image: url("../images//counterbg.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   width:100%;
-
-   background-attachment: fixed;
-   background-position: center;
-   min-height:200px;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 200px;
 }
 
-.counterBgOverlay{
-    
+.counterBgOverlay {
   position: absolute;
   width: 100%;
-   min-height:200px;
-   background-color: rgba(0,0,0,0.6);
-   left: 0;
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 0;
 }
-.counter{
-  font-family: "Montserrat",sans-serif;
-  font-size:32px;
-  color:#ffffff;
-  font-weight:700;
+.counter {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 700;
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ LOADDING ]*/
@@ -234,7 +226,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   }
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ Header ]*/
 
@@ -263,7 +254,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 124px;
 }
 
-
 /*==================================================================
 [ Top bar ]*/
 .top-bar {
@@ -278,7 +268,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   line-height: 1.8;
   color: #b2b2b2;
 }
-
 
 /*---------------------------------------------*/
 .right-top-bar a {
@@ -299,15 +288,12 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   color: #6c7ae0;
 }
 
-
 /*---------------------------------------------*/
 .topbar-mobile li {
   padding: 8px 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   background-color: #222;
 }
-
-
 
 /*==================================================================
 [ Menu ]*/
@@ -342,7 +328,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   background-color: #fff;
 }
 
-
 /*---------------------------------------------*/
 .limiter-menu-desktop {
   height: 100%;
@@ -354,8 +339,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   align-items: center;
   background-color: transparent;
 }
-
-
 
 /*------------------------------------------------------------------
 [ Logo ]*/
@@ -374,8 +357,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   max-width: 100%;
   max-height: 100%;
 }
-
-
 
 /*------------------------------------------------------------------
 [ Menu ]*/
@@ -531,7 +512,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   cursor: pointer;
 }
 
-
 /*---------------------------------------------*/
 .icon-header-noti::after {
   content: attr(data-notify);
@@ -555,7 +535,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .wrap-header-mobile .wrap-icon-header {
   flex-grow: unset;
 }
-
 
 /*------------------------------------------------------------------
 [ Modal search ]*/
@@ -627,7 +606,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 /*---------------------------------------------*/
 @media (max-width: 767px) {
-
   .wrap-search-header input,
   .wrap-search-header button {
     font-size: 30px;
@@ -639,7 +617,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 @media (max-width: 575px) {
-
   .wrap-search-header input,
   .wrap-search-header button {
     font-size: 20px;
@@ -653,7 +630,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
     height: 80px;
   }
 }
-
 
 /*==================================================================
 [ Fixed menu desktop ]*/
@@ -685,8 +661,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .main-menu > li.active-menu > a {
   color: #6c7ae0;
 }
-
-
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 [ Header Mobile ]*/
@@ -729,8 +703,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   bottom: 0;
   margin: auto;
 }
-
-
 
 /*------------------------------------------------------------------
 [ btn show menu ]*/
@@ -855,7 +827,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   }
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ Sidebar ]*/
 .wrap-sidebar {
@@ -865,7 +836,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 100vh;
   top: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.0);
+  background-color: rgba(0, 0, 0, 0);
   visibility: hidden;
 
   -webkit-transition: all 0.4s;
@@ -951,7 +922,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   opacity: 1;
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ Header cart ]*/
 .wrap-header-cart {
@@ -961,7 +931,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 100vh;
   top: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.0);
+  background-color: rgba(0, 0, 0, 0);
   visibility: hidden;
 
   -webkit-transition: all 0.4s;
@@ -1040,7 +1010,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .header-cart-item-img::after {
-  content: '\e870';
+  content: "\e870";
   font-family: Linearicons-Free;
   font-size: 16px;
   display: -webkit-box;
@@ -1107,7 +1077,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   }
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ Restyle Select2 ]*/
 
@@ -1134,7 +1103,10 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 /*------------------------------------------------------------------
 [ in select ]*/
-.rs1-select2 .select2-container .select2-selection--single .select2-selection__rendered {
+.rs1-select2
+  .select2-container
+  .select2-selection--single
+  .select2-selection__rendered {
   font-family: Poppins-Regular;
   font-size: 13px;
   color: #555;
@@ -1143,7 +1115,10 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   background-color: transparent;
 }
 
-.rs1-select2 .select2-container--default .select2-selection--single .select2-selection__arrow {
+.rs1-select2
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
   width: 38px;
   height: 20px;
   top: calc(50% - 10px);
@@ -1158,21 +1133,30 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   border-left: 1px solid #e6e6e6;
 }
 
-.rs1-select2 .select2-container--default .select2-selection--single .select2-selection__arrow b {
+.rs1-select2
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
   display: none;
 }
 
-.rs1-select2 .select2-container--default .select2-selection--single .select2-selection__arrow::after {
+.rs1-select2
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow::after {
   content: "\f0dc";
   font-family: FontAwesome;
   font-size: 13px;
   color: #808080;
 }
 
-.rs1-select2 .select2-container--default .select2-selection--single .select2-selection__arrow:hover:after {
+.rs1-select2
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow:hover:after {
   color: #6c7ae0;
 }
-
 
 /*------------------------------------------------------------------
 [ Dropdown option ]*/
@@ -1211,7 +1195,9 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   color: white;
 }
 
-.rs1-select2 .select2-container .select2-results__option--highlighted[aria-selected] {
+.rs1-select2
+  .select2-container
+  .select2-results__option--highlighted[aria-selected] {
   background: #6c7ae0;
   color: white;
 }
@@ -1238,21 +1224,28 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 40px;
 }
 
-.rs2-select2 .select2-container .select2-selection--single .select2-selection__rendered {
+.rs2-select2
+  .select2-container
+  .select2-selection--single
+  .select2-selection__rendered {
   padding-left: 15px;
 }
 
-.rs2-select2 .select2-container--default .select2-selection--single .select2-selection__arrow {
+.rs2-select2
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
   width: 35px;
   right: 0px;
   border-left: none;
 }
 
-.rs2-select2 .select2-container--default .select2-selection--single .select2-selection__arrow::after {
+.rs2-select2
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow::after {
   content: "\f0d7";
 }
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Slick1 ]*/
@@ -1422,7 +1415,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   }
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ Slick2 ]*/
 
@@ -1472,7 +1464,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
     left: 0px;
   }
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Slick3 ]*/
@@ -1559,8 +1550,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   border-color: #ccc;
 }
 
-
-
 /*//////////////////////////////////////////////////////////////////
 [ RS Magnific-Popup ]*/
 .mfp-bg {
@@ -1586,13 +1575,13 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 button.mfp-arrow-right {
-  background-image: url(../images/icons/icon-next.png);
+  /* background-image: url(../images/icons/icon-next.png); */
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 button.mfp-arrow-left {
-  background-image: url(../images/icons/icon-prev.png);
+  /* background-image: url(../images/icons/icon-prev.png); */
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -1605,7 +1594,7 @@ button.mfp-close {
   right: 0;
   top: 0;
   color: transparent !important;
-  background-image: url(../images/icons/icon-close.png);
+  /* background-image: url(../images/icons/icon-close.png); */
   background-position: center center;
   background-repeat: no-repeat;
   cursor: pointer !important;
@@ -1653,7 +1642,6 @@ button.mfp-close {
   opacity: 0;
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ Tab01 ]*/
 .tab01 .nav-tabs {
@@ -1698,8 +1686,6 @@ button.mfp-close {
   color: #333;
   border-color: #797979;
 }
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ RS sweet alert ]*/
@@ -1753,7 +1739,6 @@ button.mfp-close {
 .swal-footer {
   margin-top: 0;
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Filter ]*/
@@ -1842,7 +1827,6 @@ button.mfp-close {
 }
 
 @media (max-width: 767px) {
-
   .filter-col1,
   .filter-col2,
   .filter-col3,
@@ -1852,7 +1836,6 @@ button.mfp-close {
 }
 
 @media (max-width: 575px) {
-
   .filter-col1,
   .filter-col2,
   .filter-col3,
@@ -1860,8 +1843,6 @@ button.mfp-close {
     width: 100%;
   }
 }
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Num Product ]*/
@@ -1947,7 +1928,6 @@ input.num-product::-webkit-inner-spin-button {
   visibility: visible;
   opacity: 1;
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Modal1 ]*/
@@ -2060,8 +2040,6 @@ input.num-product::-webkit-inner-spin-button {
   line-height: 1.6;
 }
 
-
-
 /*//////////////////////////////////////////////////////////////////
 [ Block1 ]*/
 .block1 {
@@ -2070,7 +2048,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .block1-txt {
-  background-color: rgba(103, 117, 214, 0.0);
+  background-color: rgba(103, 117, 214, 0);
 }
 
 /*---------------------------------------------*/
@@ -2205,8 +2183,6 @@ input.num-product::-webkit-inner-spin-button {
   top: 42px;
   left: 12px;
 }
-
-
 
 /*==================================================================
     TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
@@ -2370,7 +2346,6 @@ input.num-product::-webkit-inner-spin-button {
   line-height: 1.666667;
 }
 
-
 /*---------------------------------------------*/
 .stext-301 {
   font-family: Montserrat-Bold;
@@ -2378,7 +2353,6 @@ input.num-product::-webkit-inner-spin-button {
   line-height: 1.6;
   text-transform: uppercase;
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ M-Text 16 - 25 ]*/
@@ -2463,7 +2437,6 @@ input.num-product::-webkit-inner-spin-button {
   text-transform: uppercase;
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
 .ltext-101 {
@@ -2522,7 +2495,6 @@ input.num-product::-webkit-inner-spin-button {
   line-height: 1.2;
 }
 
-
 /*---------------------------------------------*/
 .ltext-201 {
   font-family: PlayfairDisplay-Bold;
@@ -2537,13 +2509,9 @@ input.num-product::-webkit-inner-spin-button {
   line-height: 1.2857;
 }
 
-
-
-
 /*==================================================================
     SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE
 ==================================================================*/
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Size ]*/
@@ -2746,8 +2714,6 @@ input.num-product::-webkit-inner-spin-button {
   max-width: 286px;
 }
 
-
-
 /*//////////////////////////////////////////////////////////////////
 [ Height ]*/
 .size-301 {
@@ -2761,7 +2727,6 @@ input.num-product::-webkit-inner-spin-button {
 .size-303 {
   height: 390px;
 }
-
 
 /*==================================================================
    BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND
@@ -2826,9 +2791,6 @@ input.num-product::-webkit-inner-spin-button {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
-
-
 
 /*==================================================================
        BORDER BORDER  BORDER  BORDER  BORDER  BORDER  BORDER  BORDER
@@ -2927,7 +2889,6 @@ input.num-product::-webkit-inner-spin-button {
   border: 1px solid #d9d9d9;
   border-radius: 2px;
 }
-
 
 /*==================================================================
  HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
@@ -3054,7 +3015,6 @@ input.num-product::-webkit-inner-spin-button {
   border-color: #797979;
 }
 
-
 /*---------------------------------------------*/
 .wrap-input1 {
   position: relative;
@@ -3078,7 +3038,6 @@ input.num-product::-webkit-inner-spin-button {
 .input1:focus + .focus-input1 {
   width: 100%;
 }
-
 
 /*---------------------------------------------*/
 .how-pagination1 {
@@ -3166,8 +3125,6 @@ input.num-product::-webkit-inner-spin-button {
   left: 10px;
 }
 
-
-
 /*---------------------------------------------*/
 .how-itemcart1 {
   width: 60px;
@@ -3181,7 +3138,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .how-itemcart1::after {
-  content: '\e870';
+  content: "\e870";
   font-family: Linearicons-Free;
   font-size: 16px;
   display: -webkit-box;
@@ -3245,8 +3202,6 @@ input.num-product::-webkit-inner-spin-button {
   right: -21px;
 }
 
-
-
 /*==================================================================
       PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO PSEUDO
 ==================================================================*/
@@ -3268,9 +3223,6 @@ input.num-product::-webkit-inner-spin-button {
 .focus-in0:focus:-ms-input-placeholder {
   color: transparent;
 }
-
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Hover ]*/
@@ -3348,7 +3300,6 @@ input.num-product::-webkit-inner-spin-button {
   border-color: #717fe0;
 }
 
-
 /*---------------------------------------------*/
 .hov-ovelay1 {
   position: relative;
@@ -3374,7 +3325,6 @@ input.num-product::-webkit-inner-spin-button {
   opacity: 1;
 }
 
-
 /*---------------------------------------------*/
 .hov1:hover {
   color: #333;
@@ -3394,9 +3344,6 @@ input.num-product::-webkit-inner-spin-button {
 .hov3:hover {
   opacity: 1;
 }
-
-
-
 
 /*==================================================================
   RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE
@@ -3470,9 +3417,7 @@ input.num-product::-webkit-inner-spin-button {
   }
 
   /*---------------------------------------------*/
-
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ LG ]*/
@@ -3553,7 +3498,6 @@ input.num-product::-webkit-inner-spin-button {
   }
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ MD ]*/
 @media (max-width: 767px) {
@@ -3625,9 +3569,7 @@ input.num-product::-webkit-inner-spin-button {
   .respon4 {
     width: 100%;
   }
-
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ SM ]*/
@@ -3719,10 +3661,7 @@ input.num-product::-webkit-inner-spin-button {
   .respon7 {
     padding-left: 60px;
   }
-
-
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ SSM ]*/
@@ -3795,5 +3734,4 @@ input.num-product::-webkit-inner-spin-button {
   .respon3 {
     padding: 20px;
   }
-
 }
